@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <title>PA First Robotics</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png"
+
+              <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <!-- fonts -->   
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+        <!-- Nav Arrow -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body onresize="checkFooter()">
+
+
+           <header>
+            <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                <div class="container">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <a class="navbar-brand" id="logo-container" href="index.html">
+                        <img src="../images/logo.png" alt="Our Logo" id="logo" class="d-inline-block align-top">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto navbar-right">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../our-story.html">Our Story </a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a class="nav-link" href="../departments.html">Departments  <span class="chevron bottom"></span></a>
+                                    <div class="dropdown-content">
+                                        <a href="../departments/programming.html">Programming</a>
+                                        <a href="../departments/manipulator.html">Manipulator</a>
+                                        <a href="../departments/drive-train.html">Drive Train</a>
+                                        <a href="../departments/wiring.html">Wiring &amp; Pneumatics</a>
+                                        <a href="../departments/public%20relations.html">Public Relations</a>
+                                        <a href="../departments/special%20projects.html">Special Projects</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../outreach.html">Outreach</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../sponsors.html">Sponsors</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSe7bRi1oOx3kwIA-o3A-Dsubb5VZBEEzqCOIycJV8DL91-tIQ/viewform" target="_blank" >Join Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+<!-- end header -->
+
+        <div class="container" id="main-article">
+            <div id="page-title">
+                <h1>Programming</h1>
+            </div>
+
+            <div class="info">
+                
+
+
+
+            </div>
+
+        </div><!-- End Container -->
+
+         <footer>
+            <nav class="navbar navbar-toggleable-sm fixed-bottom navbar-inverse" id="footer">
+                <div class=" navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" id="footer-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </footer><!-- End Footer
+
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript">
+            function checkFooter()   {
+                if ($(document).height() > $(window).height())  {
+                    $("#footer").removeClass("fixed-bottom");
+                } else {
+                    $("#footer").addClass("fixed-bottom");
+                }
+            };
+
+            checkFooter();
+        </script>
+    </body>
+</html>
